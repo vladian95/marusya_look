@@ -2,7 +2,7 @@ import './info.scss';
 import Me from '../../img/marme.jpg';
 export default function Info() {
   return (
-    <div className="Info" id="info">
+    <div className="Info" id="Info">
       <div className="Left">
         <div className="Left-Wrapper">
           <h2 className="Info-Intro">Привет, меня зовут</h2>
