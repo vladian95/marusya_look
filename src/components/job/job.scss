@@ -1,1 +1,13 @@
+.Job-Wrapper {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
+.Card {
+  height: 500px;
+  width: 300px;
+  background-color: blue;
+  border-radius: 50px;
+}

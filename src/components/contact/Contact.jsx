@@ -40,7 +40,6 @@ export default function Contact() {
               <a
                 href="tg://resolve?domain=vladian95"
                 className="Contact-Info-Link"
-                target="_blank"
               >
                 <i class="fa-brands fa-telegram"></i>
               </a>
@@ -50,7 +49,6 @@ export default function Contact() {
               <a
                 href="https://instagram.com/marusya_look?igshid=YmMyMTA2M2Y="
                 className="Contact-Info-Link"
-                target="_blank"
               >
                 <i class="fa-brands fa-instagram"></i>
               </a>
@@ -60,7 +58,6 @@ export default function Contact() {
               <a
                 href="mailto:marinalook23@gmail.com"
                 className="Contact-Info-Link"
-                target="_blank"
               >
                 <i class="fa-regular fa-envelope"></i>
               </a>
@@ -110,6 +107,15 @@ export default function Contact() {
             {done && 'Спасибо =)'}
           </form>
         </div>
+      </div>
+
+      <div className="Developer">
+        Developed by \
+        {
+          <a href="https://www.linkedin.com/in/vlad-kvanin-06a223212/">
+            Vladian95
+          </a>
+        }
       </div>
     </div>
   );
