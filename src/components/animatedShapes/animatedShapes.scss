@@ -1,0 +1,54 @@
+.Circle {
+  width: 50px;
+  height: 50px;
+  background-color: lightpink;
+  opacity: 0.7;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: -1;
+  border-radius: 50%;
+  animation: circle 10s linear alternate infinite;
+}
+
+@keyframes circle {
+  to {
+    transform: translate(100vh, 90vh);
+  }
+}
+
+.Circle-Two {
+  width: 80px;
+  height: 80px;
+  background-color: lightpink;
+  position: absolute;
+  top: 0px;
+  right: 240px;
+  z-index: -2;
+  border-radius: 50%;
+  animation: circleTwo 25s linear alternate infinite;
+}
+
+@keyframes circleTwo {
+  to {
+    transform: translate(-100vh, 90vh);
+  }
+}
+
+.Circle-Three {
+  width: 70px;
+  height: 70px;
+  background-color: lightpink;
+  position: absolute;
+  bottom: 0px;
+  right: -120px;
+  z-index: -2;
+  border-radius: 50%;
+  animation: circleThree 9s linear alternate infinite;
+}
+
+@keyframes circleThree {
+  to {
+    transform: translate(-100vh, -100vh);
+  }
+}

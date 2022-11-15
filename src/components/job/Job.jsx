@@ -1,5 +1,6 @@
 import './job.scss';
 import Tilt from 'react-parallax-tilt';
+import AnimatedShapes from '../animatedShapes/AnimatedShapes';
 
 export default function Job() {
   return (
@@ -37,6 +38,7 @@ export default function Job() {
           <a href="#Contact">ОБУЧЕНИЯ</a>
         </Tilt>
       </div>
+      <AnimatedShapes />
     </div>
   );
 }
