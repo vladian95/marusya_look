@@ -1,12 +1,12 @@
-.Brows {
+.MakeUp {
+  position: relative;
   height: 100vh;
   text-align: center;
   overflow: hidden;
-  position: relative;
 }
 
-.Brows-Bg {
-  clip-path: polygon(25% 0%, 100% 0%, 77% 72%, 0% 100%);
+.MakeUp-Bg {
+  clip-path: polygon(0 0, 100% 23%, 69% 100%, 6% 49%);
   background-color: lightpink;
   width: 100%;
   height: 100%;
@@ -25,7 +25,7 @@
   overflow: visible;
 }
 
-.Brows-Card {
+.MakeUp-Card {
   position: relative;
   width: 200px;
   height: 300px;
@@ -76,43 +76,43 @@
   transform: perspective(500px) rotateY(180deg);
 }
 
-.Brows-CardOne {
+.MakeUp-CardOne {
   .Front {
-    background-image: url('../../img/brows/brow2.jpg');
+    background-image: url('../../img/make/make1.jpg');
   }
   .Back {
-    background-image: url('../../img/brows/brow3.jpg');
+    background-image: url('../../img/make/make2.jpg');
   }
 }
 
-.Brows-CardTwo {
+.MakeUp-CardTwo {
   .Front {
-    background-image: url('../../img/brows/brow4.jpg');
+    background-image: url('../../img/make/make3.jpg');
   }
   .Back {
-    background-image: url('../../img/brows/brow5.jpg');
+    background-image: url('../../img/make/make4.jpg');
   }
 }
 
-.Brows-CardThree {
+.MakeUp-CardThree {
   .Front {
-    background-image: url('../../img/brows/brow6.jpg');
+    background-image: url('../../img/make/make5.jpg');
   }
   .Back {
-    background-image: url('../../img/brows/brow7.jpg');
+    background-image: url('../../img/make/make6.jpg');
   }
 }
 
-.Brows-CardFour {
+.MakeUp-CardFour {
   .Front {
-    background-image: url('../../img/brows/brow8.jpg');
+    background-image: url('../../img/make/make7.jpg');
   }
   .Back {
-    background-image: url('../../img/brows/brow1.jpg');
+    background-image: url('../../img/make/make1.jpg');
   }
 }
 
-.Brows-Text {
+.MakeUp-Text {
   margin-top: 40px;
   padding: 30px;
   li {
