@@ -4,6 +4,7 @@ import Job from './components/job/Job';
 import Contact from './components/contact/Contact';
 import Brows from './components/brows/Brows';
 import MakeUp from './components/makeUp/MakeUp';
+import Sert from './components/sert/Sert';
 import './app.scss';
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <Job />
         <Brows />
         <MakeUp />
+        <Sert />
         <Contact />
       </div>
     </div>
