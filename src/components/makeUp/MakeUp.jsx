@@ -7,34 +7,34 @@ function MakeUp() {
       <h1 className="MakeUp-Title">Make Up</h1>
       <div className="Card-Wrapper">
         <div className="MakeUp-Card MakeUp-CardOne">
-          <div className="Face Front">
+          <div className="MakeUp-Face MakeUp-Front">
             <h3>front</h3>
           </div>
-          <div className="Face Back">
+          <div className="MakeUp-Face MakeUp-Back">
             <h3>back</h3>
           </div>
         </div>
         <div className="MakeUp-Card MakeUp-CardTwo">
-          <div className="Face Front">
+          <div className="MakeUp-Face MakeUp-Front">
             <h3>front</h3>
           </div>
-          <div className="Face Back">
+          <div className="MakeUp-Face MakeUp-Back">
             <h3>back</h3>
           </div>
         </div>
         <div className="MakeUp-Card MakeUp-CardThree">
-          <div className="Face Front">
+          <div className="MakeUp-Face MakeUp-Front">
             <h3>front</h3>
           </div>
-          <div className="Face Back">
+          <div className="MakeUp-Face MakeUp-Back">
             <h3>back</h3>
           </div>
         </div>
         <div className="MakeUp-Card MakeUp-CardFour">
-          <div className="Face Front">
+          <div className="MakeUp-Face MakeUp-Front">
             <h3>front</h3>
           </div>
-          <div className="Face Back">
+          <div className="MakeUp-Face MakeUp-Back">
             <h3>back</h3>
           </div>
         </div>
