@@ -170,7 +170,8 @@ textarea {
   outline: lightpink;
 }
 
-button {
+.Contact-Btn {
+  margin-top: 10px;
   border: none;
   padding: 15px;
   background-color: lightpink;
@@ -183,6 +184,7 @@ button {
   transition: all 0.3s ease;
   &:hover {
     background-color: pink;
+    transform: translateY(-10px);
   }
 }
 

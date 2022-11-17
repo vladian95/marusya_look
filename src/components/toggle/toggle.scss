@@ -9,6 +9,7 @@
   align-items: center;
   justify-content: space-around;
   position: relative;
+  overflow: hidden;
 }
 
 .Toggle-Icon {
@@ -23,5 +24,7 @@
   border-radius: 50%;
   background-color: lightpink;
   position: absolute;
+  border: none;
+  transition: 0.5s ease;
   cursor: pointer;
 }

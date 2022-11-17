@@ -15,7 +15,7 @@ export default function Job() {
           scale={1}
           gyroscope={true}
         >
-          <a href="#Contact">БРОВИ</a>
+          <a href="#Brows">БРОВИ</a>
         </Tilt>
         <Tilt
           className="parallax-effect-glare-scale Job-Item-MakeUp"
@@ -25,7 +25,7 @@ export default function Job() {
           scale={1}
           gyroscope={true}
         >
-          <a href="#Contact">ВИЗАЖ</a>
+          <a href="#MakeUp">ВИЗАЖ</a>
         </Tilt>
         <Tilt
           className="parallax-effect-glare-scale Job-Item-Sertificate"
@@ -35,7 +35,7 @@ export default function Job() {
           scale={1}
           gyroscope={true}
         >
-          <a href="#Contact">ОБУЧЕНИЯ</a>
+          <a href="#Sert">ОБУЧЕНИЯ</a>
         </Tilt>
       </div>
       <AnimatedShapes />

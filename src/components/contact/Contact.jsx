@@ -136,6 +136,7 @@ export default function Contact() {
               name="message"
             ></textarea>
             <button
+              className="Contact-Btn"
               style={{
                 backgroundColor: darkMode && '#fff',
                 color: darkMode && '#222',

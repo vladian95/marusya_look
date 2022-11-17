@@ -14,12 +14,18 @@
   .Logo {
     font-size: 26px;
     text-decoration: underline lightpink;
-    flex: 9;
+    flex: 3;
+    opacity: 0;
+    transform: translateX(140px);
+    animation: fadeInUp 5s ease forwards;
   }
   .List {
     display: flex;
-    flex: 9;
+    flex: 3;
     align-items: center;
+    opacity: 0;
+    transform: translateX(-130px);
+    animation: fade 5s ease forwards;
     li {
       margin-left: 10px;
       a {
@@ -33,4 +39,49 @@
 
 .Toggle-Main {
   flex: 1;
+}
+
+@keyframes fade {
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@media (max-width: 492px) {
+  .Wrapper {
+    justify-content: space-between;
+    .Logo {
+      flex: auto;
+    }
+    .List {
+      flex: auto;
+      .ListItem {
+        .ListItemLink {
+          font-size: 14px;
+        }
+      }
+      li:nth-child(1) {
+        display: none;
+      }
+    }
+    .Toggle-Main {
+      flex: auto;
+    }
+  }
+}
+
+@media (max-width: 381px) {
+  .Wrapper {
+    .Logo {
+      font-size: 20px;
+    }
+  }
 }
