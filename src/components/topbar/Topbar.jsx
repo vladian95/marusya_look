@@ -1,3 +1,4 @@
+import Toggle from '../toggle/Toggle';
 import './topbar.scss';
 
 export default function Topbar() {
@@ -22,6 +23,7 @@ export default function Topbar() {
             </a>
           </li>
         </ul>
+        <Toggle className="Toggle-Main" />
       </div>
     </div>
   );

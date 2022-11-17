@@ -1,6 +1,7 @@
 .Neon {
   background-color: #000;
   position: relative;
+  overflow: hidden;
 }
 
 .Neon-Title {
@@ -51,6 +52,7 @@
   background-size: cover;
   transition: all 2s ease;
   position: relative;
+  overflow: hidden;
   z-index: 3;
   cursor: pointer;
   &:hover {

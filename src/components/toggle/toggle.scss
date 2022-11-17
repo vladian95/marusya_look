@@ -1,0 +1,27 @@
+.Toggle {
+  width: 50px;
+  height: 25px;
+  border-radius: 25px;
+  border: 1px solid #999;
+  background-color: #fff;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+}
+
+.Toggle-Icon {
+  width: 15px;
+  height: 15px;
+  overflow: visible;
+}
+
+.Toggle-Btn {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: lightpink;
+  position: absolute;
+  cursor: pointer;
+}

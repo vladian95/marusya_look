@@ -6,11 +6,22 @@ import Brows from './components/brows/Brows';
 import MakeUp from './components/makeUp/MakeUp';
 import Sert from './components/sert/Sert';
 import Neon from './components/neon/Neon';
+import { useContext } from 'react';
+import { ThemeContext } from './context';
 import './app.scss';
 
 function App() {
+  const theme = useContext(ThemeContext);
+  const darkMode = theme.state.darkMode;
+
   return (
-    <div className="App">
+    <div
+      className="App"
+      style={{
+        backgroundColor: darkMode ? '#222' : '#fff',
+        color: darkMode && 'white',
+      }}
+    >
       <Topbar />
       <div className="Sections">
         <Info />

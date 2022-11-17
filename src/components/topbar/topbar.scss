@@ -18,7 +18,7 @@
   }
   .List {
     display: flex;
-    flex: 3;
+    flex: 9;
     align-items: center;
     li {
       margin-left: 10px;
@@ -29,4 +29,8 @@
       }
     }
   }
+}
+
+.Toggle-Main {
+  flex: 1;
 }
