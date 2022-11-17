@@ -4,7 +4,7 @@ function Sert() {
   return (
     <div className="Sert" id="Sert">
       <div className="Sert-Bg"></div>
-      <h1 className="MakeUp-Title">Обучение</h1>
+      <h1 className="Sert-Title">Обучение</h1>
       <div className="Sert-Wrapper">
         <div className="Sert-Left">
           <div className="Sert-Img Sert-ImgOne"></div>

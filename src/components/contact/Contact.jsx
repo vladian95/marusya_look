@@ -1,10 +1,14 @@
-import { useRef, useState } from 'react';
+import { useContext, useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
+import { ThemeContext } from '../../context';
 import './contact.scss';
 
 export default function Contact() {
   const formRef = useRef();
   const [done, setDone] = useState(false);
+
+  const theme = useContext(ThemeContext);
+  const darkMode = theme.state.darkMode;
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -28,7 +32,13 @@ export default function Contact() {
 
   return (
     <div className="Contact" id="Contact">
-      <div className="Contact-Bg"></div>
+      <div
+        style={{
+          backgroundColor: darkMode && '#222',
+          color: darkMode && '#000',
+        }}
+        className="Contact-Bg"
+      ></div>
       <div className="Contact-Wrapper">
         <div className="Contact-Left">
           <h1 className="Contact-Title">
@@ -70,13 +80,26 @@ export default function Contact() {
           </p>
           <form ref={formRef} onSubmit={handleSubmit}>
             <div className="Input-Box">
-              <input type="text" name="user_name" autoComplete="off" required />
+              <input
+                style={{
+                  backgroundColor: darkMode && '#000',
+                  color: darkMode && '#fff',
+                }}
+                type="text"
+                name="user_name"
+                autoComplete="off"
+                required
+              />
               <label for="user_name" className="Label-Name">
                 <span className="Content-Name">Ваше имя :</span>
               </label>
             </div>
             <div className="Input-Box">
               <input
+                style={{
+                  backgroundColor: darkMode && '#000',
+                  color: darkMode && '#fff',
+                }}
                 type="text"
                 name="user_subject"
                 autoComplete="off"
@@ -89,6 +112,10 @@ export default function Contact() {
 
             <div className="Input-Box">
               <input
+                style={{
+                  backgroundColor: darkMode && '#000',
+                  color: darkMode && '#fff',
+                }}
                 type="text"
                 name="user_email"
                 autoComplete="off"
@@ -99,17 +126,34 @@ export default function Contact() {
               </label>
             </div>
             <textarea
+              style={{
+                backgroundColor: darkMode && '#000',
+                border: darkMode && '1px solid gray',
+                color: darkMode && '#fff',
+              }}
               rows="5"
               placeholder="Сообщения"
               name="message"
             ></textarea>
-            <button>Отправить</button>
+            <button
+              style={{
+                backgroundColor: darkMode && '#fff',
+                color: darkMode && '#222',
+              }}
+            >
+              Отправить
+            </button>
             {done && 'Спасибо =)'}
           </form>
         </div>
       </div>
 
-      <div className="Developer">
+      <div
+        style={{
+          backgroundColor: darkMode && '#222',
+        }}
+        className="Developer"
+      >
         Developed by \
         {
           <a href="https://www.linkedin.com/in/vlad-kvanin-06a223212/">

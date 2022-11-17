@@ -6,7 +6,7 @@
   position: absolute;
   top: 0px;
   left: 0px;
-  z-index: -1;
+  z-index: 15;
   border-radius: 50%;
   animation: circle 10s linear alternate infinite;
 }
@@ -24,7 +24,7 @@
   position: absolute;
   top: 0px;
   right: 240px;
-  z-index: -2;
+  z-index: 15;
   border-radius: 50%;
   animation: circleTwo 25s linear alternate infinite;
 }
@@ -42,7 +42,7 @@
   position: absolute;
   bottom: 0px;
   right: -120px;
-  z-index: -2;
+  z-index: 15;
   border-radius: 50%;
   animation: circleThree 9s linear alternate infinite;
 }

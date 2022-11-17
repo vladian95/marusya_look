@@ -5,6 +5,10 @@
   overflow: hidden;
 }
 
+.Sert-Title {
+  z-index: -100;
+}
+
 .Sert-Bg {
   background-color: lightpink;
   width: 100%;
@@ -12,9 +16,8 @@
   position: absolute;
   top: 0;
   left: 0;
-  z-index: -1;
-  -webkit-clip-path: polygon(50% 0%, 0 66%, 50% 100%, 0 13%);
-  clip-path: polygon(50% 0%, 0 66%, 50% 100%, 0 13%);
+  -webkit-clip-path: polygon(17% 0%, 0 66%, 50% 100%, 0 13%);
+  clip-path: polygon(17% 0%, 0 66%, 50% 100%, 0 13%);
 }
 
 .Sert-Wrapper {
