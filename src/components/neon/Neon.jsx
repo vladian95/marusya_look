@@ -1,13 +1,36 @@
+import { motion } from 'framer-motion';
 import NeonAnimatedShapes from '../neonAnimatedShapes/NeonAnimatedShapes';
 import './neon.scss';
 
+const cardAnimation = {
+  hidden: {
+    y: 500,
+    opacity: 0,
+  },
+  visible: (custom) => ({
+    y: 0,
+    opacity: 1,
+    transition: { delay: custom * 0.6 },
+  }),
+};
+
 function Neon() {
   return (
-    <div className="Neon">
-      <h1 className="Neon-Title" data-text="&nbsp;NEON MAKE UP&nbsp;">
+    <motion.div
+      className="Neon"
+      initial="hidden"
+      whileInView="visible"
+      viewport={{ amount: 0.5, once: true }}
+    >
+      <motion.h1
+        custom={1}
+        variants={cardAnimation}
+        className="Neon-Title"
+        data-text="&nbsp;NEON MAKE UP&nbsp;"
+      >
         &nbsp;NEON MAKE UP&nbsp;
-      </h1>
-      <div className="Neon-Wrapper">
+      </motion.h1>
+      <motion.div custom={2} variants={cardAnimation} className="Neon-Wrapper">
         <div className="Neon-Card Neon-CardOne">
           <span></span>
           <span></span>
@@ -38,9 +61,9 @@ function Neon() {
           <span></span>
           <span></span>
         </div>
-      </div>
+      </motion.div>
       <NeonAnimatedShapes />
-    </div>
+    </motion.div>
   );
 }
 
