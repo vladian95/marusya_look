@@ -1,12 +1,33 @@
-import './job.scss';
+import { motion } from 'framer-motion';
 import Tilt from 'react-parallax-tilt';
 import AnimatedShapes from '../animatedShapes/AnimatedShapes';
+import './job.scss';
+
+const textAnimation = {
+  hidden: {
+    y: 100,
+    opacity: 0,
+  },
+  visible: (custom) => ({
+    y: 0,
+    opacity: 1,
+    transition: { delay: custom * 0.2 },
+  }),
+};
 
 export default function Job() {
   return (
-    <div className="Job" id="Job">
-      <h1 className="Job-Title">Виды деятельности</h1>
-      <div className="Job-Wrapper">
+    <motion.div
+      initial="hidden"
+      whileInView="visible"
+      viewport={{ amount: 0.2, once: true }}
+      className="Job"
+      id="Job"
+    >
+      <motion.h1 custom={1} variants={textAnimation} className="Job-Title">
+        Виды деятельности
+      </motion.h1>
+      <motion.div custom={2} variants={textAnimation} className="Job-Wrapper">
         <Tilt
           className="parallax-effect-glare-scale Job-Item-Brow"
           perspective={500}
@@ -37,8 +58,8 @@ export default function Job() {
         >
           <a href="#Sert">ОБУЧЕНИЯ</a>
         </Tilt>
-      </div>
+      </motion.div>
       <AnimatedShapes />
-    </div>
+    </motion.div>
   );
 }
