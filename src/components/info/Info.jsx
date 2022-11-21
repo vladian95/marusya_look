@@ -1,4 +1,5 @@
 import './info.scss';
+
 import Me from '../../img/marme.jpg';
 export default function Info() {
   return (
