@@ -1,8 +1,44 @@
 import { useContext, useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import { ThemeContext } from '../../context';
+import { motion } from 'framer-motion';
 import './contact.scss';
 
+const cInputAnimation = {
+  hidden: {
+    x: 400,
+    opacity: 0,
+  },
+  visible: (custom) => ({
+    x: 0,
+    opacity: 1,
+    transition: { delay: custom * 0.4 },
+  }),
+};
+
+const cBottomAnimation = {
+  hidden: {
+    y: 400,
+    opacity: 0,
+  },
+  visible: (custom) => ({
+    y: 0,
+    opacity: 1,
+    transition: { delay: custom * 0.2 },
+  }),
+};
+
+const cTitleAnimation = {
+  hidden: {
+    y: -400,
+    opacity: 0,
+  },
+  visible: (custom) => ({
+    y: 0,
+    opacity: 1,
+    transition: { delay: custom * 0.2 },
+  }),
+};
 export default function Contact() {
   const formRef = useRef();
   const [done, setDone] = useState(false);
@@ -31,20 +67,36 @@ export default function Contact() {
   };
 
   return (
-    <div className="Contact" id="Contact">
-      <div
+    <motion.div
+      className="Contact"
+      id="Contact"
+      initial="hidden"
+      whileInView="visible"
+      viewport={{ amount: 0.9, once: true }}
+    >
+      <motion.div
+        custom={8}
+        variants={cBottomAnimation}
         style={{
           backgroundColor: darkMode && '#222',
           color: darkMode && '#000',
         }}
         className="Contact-Bg"
-      ></div>
+      ></motion.div>
       <div className="Contact-Wrapper">
         <div className="Contact-Left">
-          <h1 className="Contact-Title">
+          <motion.h1
+            custom={5}
+            variants={cTitleAnimation}
+            className="Contact-Title"
+          >
             Давайте обсудим все, что Вас интересует.
-          </h1>
-          <div className="Contact-Info">
+          </motion.h1>
+          <motion.div
+            custom={10}
+            variants={cTitleAnimation}
+            className="Contact-Info"
+          >
             <div className="Contact-Info-Item">
               <span className="tooltip">telegram</span>
               <a
@@ -72,14 +124,22 @@ export default function Contact() {
                 <i class="fa-regular fa-envelope"></i>
               </a>
             </div>
-          </div>
+          </motion.div>
         </div>
         <div className="Contact-Right">
-          <p className="Contact-Desc">
+          <motion.p
+            custom={6}
+            variants={cTitleAnimation}
+            className="Contact-Desc"
+          >
             <b>Просто заполните форму</b> и я отвечу на все Ваши вопросы.
-          </p>
-          <form ref={formRef} onSubmit={handleSubmit}>
-            <div className="Input-Box">
+          </motion.p>
+          <motion.form ref={formRef} onSubmit={handleSubmit}>
+            <motion.div
+              custom={1}
+              variants={cInputAnimation}
+              className="Input-Box"
+            >
               <input
                 style={{
                   backgroundColor: darkMode && '#000',
@@ -93,8 +153,12 @@ export default function Contact() {
               <label for="user_name" className="Label-Name">
                 <span className="Content-Name">Ваше имя :</span>
               </label>
-            </div>
-            <div className="Input-Box">
+            </motion.div>
+            <motion.div
+              custom={2}
+              variants={cInputAnimation}
+              className="Input-Box"
+            >
               <input
                 style={{
                   backgroundColor: darkMode && '#000',
@@ -108,9 +172,13 @@ export default function Contact() {
               <label for="user_subject" className="Label-Name">
                 <span className="Content-Name">Предмет разговора :</span>
               </label>
-            </div>
+            </motion.div>
 
-            <div className="Input-Box">
+            <motion.div
+              custom={3}
+              variants={cInputAnimation}
+              className="Input-Box"
+            >
               <input
                 style={{
                   backgroundColor: darkMode && '#000',
@@ -124,8 +192,10 @@ export default function Contact() {
               <label for="user_email" className="Label-Name">
                 <span className="Content-Name">Ваш Email :</span>
               </label>
-            </div>
-            <textarea
+            </motion.div>
+            <motion.textarea
+              custom={4}
+              variants={cInputAnimation}
               style={{
                 backgroundColor: darkMode && '#000',
                 border: darkMode && '1px solid gray',
@@ -134,8 +204,10 @@ export default function Contact() {
               rows="5"
               placeholder="Сообщения"
               name="message"
-            ></textarea>
-            <button
+            ></motion.textarea>
+            <motion.button
+              custom={5}
+              variants={cBottomAnimation}
               className="Contact-Btn"
               style={{
                 backgroundColor: darkMode && '#fff',
@@ -143,13 +215,15 @@ export default function Contact() {
               }}
             >
               Отправить
-            </button>
+            </motion.button>
             {done && 'Спасибо =)'}
-          </form>
+          </motion.form>
         </div>
       </div>
 
-      <div
+      <motion.div
+        custom={9}
+        variants={cTitleAnimation}
         style={{
           backgroundColor: darkMode && '#222',
         }}
@@ -161,7 +235,7 @@ export default function Contact() {
             Vladian95
           </a>
         }
-      </div>
-    </div>
+      </motion.div>
+    </motion.div>
   );
 }

@@ -25,6 +25,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  overflow: visible;
 }
 
 .Contact-Title {
@@ -101,7 +102,7 @@
 
 form {
   margin-top: 20px;
-  overflow: hidden;
+  overflow: visible;
   width: 60%;
 }
 
