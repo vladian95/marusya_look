@@ -123,3 +123,28 @@
     font-weight: 300;
   }
 }
+
+@media (max-width: 1200px) {
+  .Card-Wrapper {
+    flex-wrap: wrap;
+    .MakeUp-Card {
+      h3 {
+        right: 0;
+      }
+    }
+  }
+}
+
+@media (max-width: 847px) {
+  .MakeUp {
+    .MakeUp-Wrapper {
+      margin-top: 20px;
+    }
+    .MakeUp-Card {
+      margin-bottom: 60px;
+    }
+    .MakeUp-Text {
+      margin-top: 0;
+    }
+  }
+}

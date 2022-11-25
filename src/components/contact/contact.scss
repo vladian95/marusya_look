@@ -203,3 +203,21 @@ textarea {
     color: #fff;
   }
 }
+
+@media (max-width: 985px) {
+  .Contact-Wrapper {
+    flex-direction: column-reverse;
+    overflow: visible;
+    padding: 50px 0px;
+  }
+  .Contact-Desc {
+    text-align: center;
+    margin-left: 20px;
+  }
+  .Contact-Left {
+    overflow: visible;
+  }
+  .Contact-Title {
+    display: none;
+  }
+} ;

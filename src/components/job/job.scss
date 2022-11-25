@@ -72,6 +72,12 @@
 }
 
 @media (max-width: 1104px) {
+  .Job {
+    padding: 0;
+  }
+  .Job-Title {
+    margin-top: 0px;
+  }
   .Job-Wrapper {
     display: flex;
     flex-direction: column;
@@ -90,6 +96,10 @@
   .Job {
     display: flex;
     justify-content: space-between;
+    height: max-content;
+  }
+  .Job-Title {
+    font-size: 25px;
   }
   .Job-Wrapper {
     justify-content: flex-start;
@@ -97,7 +107,7 @@
     .parallax-effect-glare-scale {
       height: 180px;
       width: 200px;
-      margin-bottom: 50px;
+      margin-bottom: 40px;
       a {
         top: -20px;
         right: 0px;
