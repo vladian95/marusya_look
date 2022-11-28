@@ -74,15 +74,6 @@ export default function Contact() {
       whileInView="visible"
       viewport={{ amount: 0.9, once: true }}
     >
-      <motion.div
-        custom={8}
-        variants={cBottomAnimation}
-        style={{
-          backgroundColor: darkMode && '#222',
-          color: darkMode && '#000',
-        }}
-        className="Contact-Bg"
-      ></motion.div>
       <div className="Contact-Wrapper">
         <div className="Contact-Left">
           <motion.h1
@@ -221,9 +212,7 @@ export default function Contact() {
         </div>
       </div>
 
-      <motion.div
-        custom={9}
-        variants={cTitleAnimation}
+      <div
         style={{
           backgroundColor: darkMode && '#222',
         }}
@@ -235,7 +224,7 @@ export default function Contact() {
             Vladian95
           </a>
         }
-      </motion.div>
+      </div>
     </motion.div>
   );
 }

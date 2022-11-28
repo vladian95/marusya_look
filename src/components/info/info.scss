@@ -166,6 +166,7 @@
   .Info {
     flex-direction: column-reverse;
     .Right {
+      height: 50%;
       .Info-Img {
         bottom: 0;
         width: 80%;
@@ -173,6 +174,7 @@
       }
     }
     .Left {
+      height: 50%;
       overflow: visible;
       align-items: start;
       .Left-Wrapper {
