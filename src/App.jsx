@@ -23,15 +23,13 @@ function App() {
       }}
     >
       <Topbar />
-      <div className="Sections">
-        <Info />
-        <Job />
-        <Brows />
-        <MakeUp />
-        <Neon />
-        <Sert />
-        <Contact />
-      </div>
+      <Info />
+      {/* <Job />
+      <Brows />
+      <MakeUp />
+      <Neon />
+      <Sert />
+      <Contact /> */}
     </div>
   );
 }

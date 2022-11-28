@@ -1,12 +1,8 @@
 .Sert {
   position: relative;
   text-align: center;
-  height: 100vh;
-  overflow: hidden;
-}
-
-.Sert-Title {
-  z-index: -100;
+  overflow: visible;
+  // height: calc(100vh - 70px);
 }
 
 .Sert-Bg {
@@ -22,6 +18,8 @@
 
 .Sert-Wrapper {
   display: flex;
+  align-items: center;
+  justify-content: flex-start;
   overflow: visible;
   margin-top: 40px;
   padding: 0px 20px;
@@ -29,7 +27,9 @@
 }
 
 .Sert-Left {
-  flex: 1;
+  width: 50%;
+  height: 100%;
+  // flex: 1;
   position: relative;
   overflow: visible;
 }
@@ -66,7 +66,12 @@
 }
 
 .Sert-Right {
-  flex: 1;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  // flex: 1;
   text-align: left;
   ul {
     margin-top: 30px;
@@ -99,7 +104,6 @@
     flex: 1;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
     .Sert-Img {
       position: static;
       margin: 0px 5px 20px;

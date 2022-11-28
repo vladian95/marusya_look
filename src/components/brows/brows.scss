@@ -1,7 +1,13 @@
 .Brows {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
   text-align: center;
   overflow: visible;
   position: relative;
+  padding: 70px 5px 10px;
+  height: calc(100vh - 70px);
 }
 
 .Brows-Bg {
@@ -16,11 +22,16 @@
   z-index: 20;
 }
 
+.Brows-Title {
+  z-index: 23;
+  overflow: visible;
+}
+
 .Card-Wrapper {
   overflow: visible;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   margin-top: 50px;
   overflow: visible;
 }

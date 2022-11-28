@@ -1,16 +1,17 @@
 .Job {
   display: flex;
-  align-items: center;
   flex-direction: column;
-  justify-content: center;
+  align-items: center;
+  justify-content: flex-start;
   position: relative;
   overflow: hidden;
   padding: 40px 0px;
+  height: calc(100vh - 70px);
 }
 
 .Job-Title {
   text-align: center;
-  margin-top: 10px;
+  margin-top: 40px;
   font-size: 30px;
   overflow: visible;
   z-index: 16;

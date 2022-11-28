@@ -63,9 +63,9 @@ function Sert() {
         variants={bgAnimation}
         className="Sert-Bg"
       ></motion.div>
-      <motion.h1 custom={1} variants={textAnimation} className="Sert-Title">
+      {/* <motion.h1 custom={1} variants={textAnimation} className="Sert-Title">
         Обучение
-      </motion.h1>
+      </motion.h1> */}
       <div className="Sert-Wrapper">
         <motion.div className="Sert-Left">
           <motion.div

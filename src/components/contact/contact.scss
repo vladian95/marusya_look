@@ -1,15 +1,9 @@
 .Contact {
+  height: calc(100vh - 70px);
   position: relative;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.Contact-Bg {
-  width: 20px;
-  height: 100%;
-  background-color: lightpink;
-  position: absolute;
+  justify-content: center;
+  align-items: center;
 }
 
 .Contact-Wrapper {
@@ -18,11 +12,13 @@
 }
 
 .Contact-Left {
-  flex: 1;
+  // flex: 1;
+  width: 50%;
 }
 
 .Contact-Right {
-  flex: 1;
+  // flex: 1;
+  width: 50%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -192,8 +188,10 @@ textarea {
 }
 
 .Developer {
-  width: 100%;
-  padding: 20px 0px;
+  position: absolute;
+  left: 0px;
+  right: 0;
+  bottom: 20px;
   color: lightpink;
   display: flex;
   align-items: center;

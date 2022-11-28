@@ -1,6 +1,7 @@
 .Info {
   display: flex;
   height: 100vh;
+  overflow: visible;
 }
 
 .Left {
@@ -20,7 +21,7 @@
   padding: 50px;
   height: 50%;
   display: flex;
-  overflow: hidden;
+  overflow: visible;
   flex-direction: column;
   justify-content: space-between;
 }
@@ -169,8 +170,9 @@
       height: 50%;
       .Info-Img {
         bottom: 0;
-        width: 80%;
+        width: 50%;
         height: 100%;
+        overflow: visible;
       }
     }
     .Left {
@@ -208,7 +210,8 @@
   .Info {
     .Right {
       .Info-Img {
-        bottom: -50px;
+        bottom: -35px;
+        width: 70%;
       }
     }
   }
