@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/marusya_look/static/css/main.3c3e093e.css",
+    "main.js": "/marusya_look/static/js/main.c9d779f1.js",
+    "static/media/marme.jpg": "/marusya_look/static/media/marme.27eca8464037072a7859.jpg",
+    "static/media/brow5.jpg": "/marusya_look/static/media/brow5.7a21abdac3199c6f915a.jpg",
+    "static/media/brow6.jpg": "/marusya_look/static/media/brow6.3355511b55cbc620a2de.jpg",
+    "static/media/brow7.jpg": "/marusya_look/static/media/brow7.edc8e2d6a32fd7cd4b35.jpg",
+    "static/media/brow4.jpg": "/marusya_look/static/media/brow4.0d9155c2121f739a1ec1.jpg",
+    "static/media/sert.jpg": "/marusya_look/static/media/sert.099429c81963fbcec28c.jpg",
+    "static/media/make6.jpg": "/marusya_look/static/media/make6.c1976726935a5d5243d9.jpg",
+    "static/media/make3.jpg": "/marusya_look/static/media/make3.8e4e9aaf793ad76bec3b.jpg",
+    "static/media/make7.jpg": "/marusya_look/static/media/make7.ed157aa8f534df872c76.jpg",
+    "static/media/brow1.jpg": "/marusya_look/static/media/brow1.17a3bd9f4a880d8caa0b.jpg",
+    "static/media/make4.jpg": "/marusya_look/static/media/make4.de814ad0257aba96554d.jpg",
+    "static/media/make2.jpg": "/marusya_look/static/media/make2.c25b059dabd73973148f.jpg",
+    "static/media/neon1.jpg": "/marusya_look/static/media/neon1.7962cdf2fb902f30bd44.jpg",
+    "static/media/neon3.jpg": "/marusya_look/static/media/neon3.a28fd94d77711b5c19db.jpg",
+    "static/media/brow2.jpg": "/marusya_look/static/media/brow2.c92b009762b4aec1b85a.jpg",
+    "static/media/make5.jpg": "/marusya_look/static/media/make5.cc52e2f646fdaa41965b.jpg",
+    "static/media/neon2.jpg": "/marusya_look/static/media/neon2.84ee3d42b2338ba78f43.jpg",
+    "static/media/sert2.jpg": "/marusya_look/static/media/sert2.38a87d4e27669af8e19c.jpg",
+    "static/media/make1.jpg": "/marusya_look/static/media/make1.bda53121c42d5504cffe.jpg",
+    "static/media/brow3.jpg": "/marusya_look/static/media/brow3.fe7a97c0b32b33be63be.jpg",
+    "static/media/ne0n5.jpg": "/marusya_look/static/media/ne0n5.8afa109689160a35df4a.jpg",
+    "static/media/sert3.jpg": "/marusya_look/static/media/sert3.778a39d46255d115cbab.jpg",
+    "static/media/brow8.jpg": "/marusya_look/static/media/brow8.abb98ce57716e9f4ecfe.jpg",
+    "static/media/neon4.jpg": "/marusya_look/static/media/neon4.140877a83f5d8f8b26da.jpg",
+    "static/media/sun.png": "/marusya_look/static/media/sun.f794832ad72b90c61eb7.png",
+    "static/media/moon.png": "/marusya_look/static/media/moon.3bea3d398a25611d421b.png",
+    "index.html": "/marusya_look/index.html",
+    "main.3c3e093e.css.map": "/marusya_look/static/css/main.3c3e093e.css.map",
+    "main.c9d779f1.js.map": "/marusya_look/static/js/main.c9d779f1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3c3e093e.css",
+    "static/js/main.c9d779f1.js"
+  ]
+}
