@@ -1,8 +1,9 @@
 .Brows {
   height: 100vh;
   text-align: center;
-  overflow: hidden;
+  overflow: visible;
   position: relative;
+  height: max-content;
 }
 
 .Brows-Bg {
