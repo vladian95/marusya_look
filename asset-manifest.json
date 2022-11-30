@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/marusya_look/static/css/main.b5428a21.css",
-    "main.js": "/marusya_look/static/js/main.6bbc9bba.js",
+    "main.css": "/marusya_look/static/css/main.868be4a0.css",
+    "main.js": "/marusya_look/static/js/main.7d7f1bc0.js",
     "static/media/marme.jpg": "/marusya_look/static/media/marme.27eca8464037072a7859.jpg",
     "static/media/brow5.jpg": "/marusya_look/static/media/brow5.7a21abdac3199c6f915a.jpg",
     "static/media/brow6.jpg": "/marusya_look/static/media/brow6.3355511b55cbc620a2de.jpg",
@@ -29,11 +29,11 @@
     "static/media/sun.png": "/marusya_look/static/media/sun.f794832ad72b90c61eb7.png",
     "static/media/moon.png": "/marusya_look/static/media/moon.3bea3d398a25611d421b.png",
     "index.html": "/marusya_look/index.html",
-    "main.b5428a21.css.map": "/marusya_look/static/css/main.b5428a21.css.map",
-    "main.6bbc9bba.js.map": "/marusya_look/static/js/main.6bbc9bba.js.map"
+    "main.868be4a0.css.map": "/marusya_look/static/css/main.868be4a0.css.map",
+    "main.7d7f1bc0.js.map": "/marusya_look/static/js/main.7d7f1bc0.js.map"
   },
   "entrypoints": [
-    "static/css/main.b5428a21.css",
-    "static/js/main.6bbc9bba.js"
+    "static/css/main.868be4a0.css",
+    "static/js/main.7d7f1bc0.js"
   ]
 }
