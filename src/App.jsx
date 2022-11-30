@@ -26,8 +26,8 @@ function App() {
       <Info />
       <Job />
       <Brows />
-      {/* <MakeUp />
-      <Neon />
+      <MakeUp />
+      {/* <Neon />
       <Sert />
       <Contact /> */}
     </div>

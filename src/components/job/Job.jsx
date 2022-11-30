@@ -20,7 +20,7 @@ export default function Job() {
     <motion.div
       initial="hidden"
       whileInView="visible"
-      viewport={{ amount: 0.2, once: true }}
+      viewport={{ amount: 0.1, once: true }}
       className="Job"
       id="Job"
     >
