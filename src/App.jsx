@@ -24,9 +24,9 @@ function App() {
     >
       <Topbar />
       <Info />
-      {/* <Job />
+      <Job />
       <Brows />
-      <MakeUp />
+      {/* <MakeUp />
       <Neon />
       <Sert />
       <Contact /> */}

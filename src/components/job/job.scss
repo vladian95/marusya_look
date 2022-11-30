@@ -1,28 +1,24 @@
 .Job {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
   position: relative;
-  overflow: hidden;
+  overflow: visible;
   padding: 40px 0px;
   height: calc(100vh - 70px);
 }
 
 .Job-Title {
   text-align: center;
-  margin-top: 40px;
+  margin-top: 70px;
   font-size: 30px;
   overflow: visible;
   z-index: 16;
 }
 
 .Job-Wrapper {
-  height: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   overflow: visible;
+  margin-top: 60px;
 }
 
 .parallax-effect-glare-scale {
@@ -68,7 +64,14 @@
 
 @media (max-width: 1200px) {
   .Job-Title {
-    margin-top: 80px;
+    margin-bottom: 20px;
+  }
+  .Job-Wrapper {
+    display: block;
+  }
+  .parallax-effect-glare-scale {
+    margin: 0 auto;
+    margin-bottom: 30px;
   }
 }
 
@@ -80,8 +83,6 @@
     margin-top: 0px;
   }
   .Job-Wrapper {
-    display: flex;
-    flex-direction: column;
     .parallax-effect-glare-scale {
       height: 200px;
       width: 200px;
@@ -94,16 +95,10 @@
 }
 
 @media (max-width: 639px) {
-  .Job {
-    display: flex;
-    justify-content: space-between;
-    height: max-content;
-  }
   .Job-Title {
     font-size: 25px;
   }
   .Job-Wrapper {
-    justify-content: flex-start;
     margin-top: 35px;
     .parallax-effect-glare-scale {
       height: 180px;

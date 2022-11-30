@@ -167,16 +167,14 @@
   .Info {
     flex-direction: column-reverse;
     .Right {
-      height: 50%;
       .Info-Img {
         bottom: 0;
-        width: 50%;
+        width: 69%;
         height: 100%;
         overflow: visible;
       }
     }
     .Left {
-      height: 50%;
       overflow: visible;
       align-items: start;
       .Left-Wrapper {
@@ -208,6 +206,18 @@
 
 @media (max-width: 501px) {
   .Info {
+    .Left {
+      .Info-Intro {
+        font-size: 18px;
+      }
+      .Info-Name {
+        font-size: 22px;
+      }
+      .Info-Desc {
+        font-size: 14px;
+      }
+    }
+
     .Right {
       .Info-Img {
         bottom: -35px;
