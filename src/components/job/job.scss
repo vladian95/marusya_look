@@ -2,15 +2,15 @@
   position: relative;
   overflow: visible;
   padding: 40px 0px;
-  height: calc(100vh - 70px);
+  // height: calc(100vh - 70px);
+  height: 100vh;
 }
 
 .Job-Title {
   text-align: center;
-  margin-top: 70px;
+  margin-top: 40px;
   font-size: 30px;
   overflow: visible;
-  z-index: 16;
 }
 
 .Job-Wrapper {
@@ -63,9 +63,6 @@
 }
 
 @media (max-width: 1200px) {
-  .Job-Title {
-    margin-bottom: 20px;
-  }
   .Job-Wrapper {
     display: block;
   }
@@ -76,12 +73,6 @@
 }
 
 @media (max-width: 1104px) {
-  .Job {
-    padding: 0;
-  }
-  .Job-Title {
-    margin-top: 0px;
-  }
   .Job-Wrapper {
     .parallax-effect-glare-scale {
       height: 200px;
