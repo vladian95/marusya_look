@@ -4,6 +4,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  // height: 100vh;
 }
 
 .Contact-Wrapper {
@@ -12,12 +13,10 @@
 }
 
 .Contact-Left {
-  // flex: 1;
   width: 50%;
 }
 
 .Contact-Right {
-  // flex: 1;
   width: 50%;
   display: flex;
   flex-direction: column;
@@ -100,7 +99,7 @@
 
 form {
   margin-top: 20px;
-  overflow: visible;
+  overflow: hidden;
   width: 60%;
 }
 
@@ -212,9 +211,18 @@ textarea {
     margin-left: 20px;
   }
   .Contact-Left {
-    overflow: visible;
+    display: none;
+  }
+  .Contact-Right {
+    width: 100%;
   }
   .Contact-Title {
     display: none;
+  }
+  .Developer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
   }
 } ;

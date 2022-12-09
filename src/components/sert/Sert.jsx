@@ -3,7 +3,7 @@ import './sert.scss';
 
 const cardAnimation = {
   hidden: {
-    x: 400,
+    x: 100,
     opacity: 0,
   },
   visible: (custom) => ({
@@ -39,7 +39,7 @@ const bgAnimation = {
 
 const sertAnimation = {
   hidden: {
-    x: 400,
+    x: 100,
     opacity: 0,
   },
   visible: (custom) => ({
@@ -56,16 +56,16 @@ function Sert() {
       id="Sert"
       initial="hidden"
       whileInView="visible"
-      viewport={{ amount: 0.5, once: true }}
+      viewport={{ amount: 0.2, once: true }}
     >
       <motion.div
         custom={8}
         variants={bgAnimation}
         className="Sert-Bg"
       ></motion.div>
-      {/* <motion.h1 custom={1} variants={textAnimation} className="Sert-Title">
+      <motion.h1 custom={1} variants={textAnimation} className="Sert-Title">
         Обучение
-      </motion.h1> */}
+      </motion.h1>
       <div className="Sert-Wrapper">
         <motion.div className="Sert-Left">
           <motion.div

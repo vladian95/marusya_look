@@ -1,8 +1,8 @@
 .Neon {
   background-color: #000;
   position: relative;
-  overflow: visible;
-  height: calc(100vh - 70px);
+  overflow: hidden;
+  min-height: 100vh;
 }
 
 .Neon-Title {

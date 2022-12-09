@@ -2,7 +2,7 @@
   position: relative;
   text-align: center;
   overflow: visible;
-  // height: calc(100vh - 70px);
+  height: calc(100vh - 70px);
 }
 
 .Sert-Bg {
@@ -19,19 +19,15 @@
 .Sert-Wrapper {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
   overflow: visible;
-  margin-top: 40px;
   padding: 0px 20px;
-  height: 100%;
 }
 
 .Sert-Left {
   width: 50%;
-  height: 100%;
-  // flex: 1;
+  display: flex;
   position: relative;
-  overflow: visible;
 }
 
 .Sert-Img {
@@ -46,23 +42,16 @@
 
 .Sert-ImgOne {
   background-image: url('../../img/sertificate/sert.jpg');
-  position: absolute;
-  top: 0;
-  left: 20px;
 }
 
 .Sert-ImgTwo {
   background-image: url('../../img/sertificate/sert2.jpg');
-  position: absolute;
-  top: 50px;
-  left: 200px;
+  margin: 20px 15px 0px;
 }
 
 .Sert-ImgThree {
   background-image: url('../../img/sertificate/sert3.jpg');
-  position: absolute;
-  top: 100px;
-  left: 370px;
+  margin-top: 40px;
 }
 
 .Sert-Right {
@@ -71,11 +60,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  // flex: 1;
   text-align: left;
   ul {
     margin-top: 30px;
-
+    margin-left: 20px;
     flex-direction: column;
     li {
       margin-bottom: 50px;
@@ -87,6 +75,7 @@
   .Sert {
     overflow: visible;
   }
+
   .Sert-Bg {
     background-color: lightpink;
     width: 100%;
@@ -97,20 +86,27 @@
     -webkit-clip-path: polygon(17% 0%, 0 59%, 100% 26%, 0 13%);
     clip-path: polygon(17% 0%, 0 59%, 100% 26%, 0 13%);
   }
+
+  .Sert-Title {
+    margin-bottom: 25px;
+  }
   .Sert-Wrapper {
-    flex-direction: column;
+    display: block;
   }
   .Sert-Left {
-    flex: 1;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     .Sert-Img {
       position: static;
-      margin: 0px 5px 20px;
+      margin-bottom: 15px;
+      margin-top: 0;
     }
   }
   .Sert-Right {
-    flex: 1;
+    width: 100%;
     overflow: visible;
     padding-bottom: 30px;
     ul {
@@ -118,5 +114,10 @@
         margin-bottom: 15px;
       }
     }
+  }
+}
+@media (max-width: 1200px) {
+  .Sert {
+    height: auto;
   }
 }

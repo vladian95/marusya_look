@@ -20,7 +20,7 @@ function Neon() {
       className="Neon"
       initial="hidden"
       whileInView="visible"
-      viewport={{ amount: 0.5, once: true }}
+      viewport={{ amount: 0.1, once: true }}
     >
       <motion.h1
         custom={1}

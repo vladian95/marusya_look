@@ -29,7 +29,7 @@ function App() {
       <MakeUp />
       <Neon />
       <Sert />
-      {/* <Contact /> */}
+      <Contact />
     </div>
   );
 }
