@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/marusya_look/static/css/main.b7ea9e5a.css",
+    "main.css": "/marusya_look/static/css/main.ab5fc6e2.css",
     "main.js": "/marusya_look/static/js/main.1f72e262.js",
     "static/media/marme.jpg": "/marusya_look/static/media/marme.27eca8464037072a7859.jpg",
     "static/media/brow5.jpg": "/marusya_look/static/media/brow5.7a21abdac3199c6f915a.jpg",
@@ -29,11 +29,11 @@
     "static/media/sun.png": "/marusya_look/static/media/sun.f794832ad72b90c61eb7.png",
     "static/media/moon.png": "/marusya_look/static/media/moon.3bea3d398a25611d421b.png",
     "index.html": "/marusya_look/index.html",
-    "main.b7ea9e5a.css.map": "/marusya_look/static/css/main.b7ea9e5a.css.map",
+    "main.ab5fc6e2.css.map": "/marusya_look/static/css/main.ab5fc6e2.css.map",
     "main.1f72e262.js.map": "/marusya_look/static/js/main.1f72e262.js.map"
   },
   "entrypoints": [
-    "static/css/main.b7ea9e5a.css",
+    "static/css/main.ab5fc6e2.css",
     "static/js/main.1f72e262.js"
   ]
 }
